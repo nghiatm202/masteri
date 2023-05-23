@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <div id="app">
+      <header class="header">
+        <div class="header__nav-wrapper">
+          <div class="container">
+            <div class="header__nav-container">
+              <span class="header__logo">MASTERI</span>
+              <nav class="header__nav">
+                <ul class="header__nav-list">
+                  <li class="header__nav-item">
+                    <a href="#" class="header__nav-link">About</a>
+                  </li>
+                  <li class="header__nav-item">
+                    <a href="#" class="header__nav-link">Residences</a>
+                  </li>
+                  <li class="header__nav-item">
+                    <a href="#" class="header__nav-link">Location</a>
+                  </li>
+                  <li class="header__nav-item">
+                    <a href="#" class="header__nav-link">Gallery</a>
+                  </li>
+                  <li class="header__nav-item">
+                    <a href="#" class="header__nav-link">Contact</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+
+        <div class="header__slide-list">
+          <div class="header__slide-item">
+            <div class="header__slide-content">
+              <img src="./src/assets/images/header1.png" alt="Banner" />
+
+              <div class="header__slide-main-content">
+                <div class="container">
+                  <h1 class="header__title">
+                    Find a home that suits your lifestyle
+                  </h1>
+                  <div class="header__text">
+                    <span class="header__text--sm bold-text">SUPERIOR</span>
+                    <p class="header__text--base">
+                      Built on centuries of tradition and dedicated to
+                      innovating the luxury real estate industry, Masteri Centre
+                      Point offers transformative experiences through a global
+                      network of exceptional and outstanding agents.
+                    </p>
+                  </div>
+                  <span class="header__slide-current">01</span>
+                </div>
+              </div>
+            </div>
+
+            <button class="header__slide-button">Discover Design</button>
+          </div>
+
+          <div class="header__slide-item">
+            <div class="header__slide-content">
+              <img src="./src/assets/images/header1.png" alt="Banner" />
+
+              <div class="header__slide-main-content">
+                <div class="container">
+                  <h1 class="header__title">
+                    Find a home that suits your lifestyle
+                  </h1>
+                  <div class="header__text">
+                    <span class="header__text--sm bold-text">SUPERIOR</span>
+                    <p class="header__text--base">
+                      Built on centuries of tradition and dedicated to
+                      innovating the luxury real estate industry, Masteri Centre
+                      Point offers transformative experiences through a global
+                      network of exceptional and outstanding agents.
+                    </p>
+                  </div>
+                  <span class="header__slide-current">02</span>
+                </div>
+              </div>
+            </div>
+
+            <button class="header__slide-button">Discover Design</button>
+          </div>
+
+          <div class="header__slide-item">
+            <div class="header__slide-content">
+              <img src="./src/assets/images/header1.png" alt="Banner" />
+
+              <div class="header__slide-main-content">
+                <div class="container">
+                  <h1 class="header__title">
+                    Find a home that suits your lifestyle
+                  </h1>
+                  <div class="header__text">
+                    <span class="header__text--sm bold-text">SUPERIOR</span>
+                    <p class="header__text--base">
+                      Built on centuries of tradition and dedicated to
+                      innovating the luxury real estate industry, Masteri Centre
+                      Point offers transformative experiences through a global
+                      network of exceptional and outstanding agents.
+                    </p>
+                  </div>
+                  <span class="header__slide-current">03</span>
+                </div>
+              </div>
+            </div>
+
+            <button class="header__slide-button">Discover Design</button>
+          </div>
+        </div>
+
+        <p class="header__slide-paginate">
+          <span class="header__slide-paginate--current">01</span>/
+          <span class="header__slide-paginate--total">03</span>
+        </p>
+      </header>
+
+      <section class="seek-section">
+        <div class="container">
+          <div class="seek-section__text">
+            <span class="seek-section__text--sm bold-text">RESIDENCES</span>
+            <h2 class="seek-section__title">
+              For those who seek an exceptional home and life, there is only
+              <br />
+              <span class="seek-section__title--highlight"
+                >Masteri Centre Point</span
+              >
+            </h2>
+            <p class="seek-section__paginate">
+              <span class="seek-section__paginate--current">01</span>/
+              <span class="seek-section__paginate--total">03</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="seek-section__slide-list">
+          <div class="seek-section__slide-item">
+            <div class="seek-section__slide-image--dragged">
+              <img
+                srcset="./src/assets/images/seek.png 2x"
+                alt="Superior Apartment with City View & Balcony"
+              />
+
+              <button class="seek-section__button--dragged">Drag</button>
+            </div>
+
+            <div class="seek-section__slide-content">
+              <div class="seek-section__slide-content--top">
+                <span class="seek-section__slide-number"> 01 </span>
+                <span class="seek-section__slide-title"
+                  >Superior Apartment with City View & Balcony</span
+                >
+                <div class="seek-section__icons">
+                  <div class="seek-section__icon--bedroom">
+                    <img
+                      src="./src/assets/images/icons/bedroom.svg"
+                      alt="Bedroom"
+                      class="seek-section__icon"
+                    />
+                    <span class="seek-section__icon-count"> 3 </span>
+                  </div>
+                  <div class="seek-section__icon--bath-tub">
+                    <img
+                      src="./src/assets/images/icons/bath-tub.svg"
+                      alt="Bath Tub"
+                      class="seek-section__icon"
+                    />
+                    <span class="seek-section__icon-count"> 4 </span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="seek-section__slide-content--bottom">
+                <p class="seek-section__slide-desc">
+                  The spectacular 15 into 13 room corner residence is perfectly
+                  positioned on Fifth Avenue to enjoy the absolutely dazzling
+                  views of Central Park and the fabulous sun-lit Southern
+                  exposures grace the apartment with amazing light throughout
+                  the day.
+                </p>
+
+                <button class="seek-section__explore" type="submit">
+                  Explore
+                  <img
+                    src="./src/assets/images/icons/arrow-right.svg"
+                    alt="Arrow Right Icon"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="seek-section__button">View all Residences</button>
+      </section>
+
+      <section class="positioned-section">
+        <div class="container">
+          <div class="positioned-section__container">
+            <span class="positioned-section__text bold-text">location</span>
+
+            <div class="positioned-section__content">
+              <h3
+                class="positioned-section__title positioned-section__title--large"
+              >
+                Positioned in the heart of District 2 to enjoy the
+                <span class="positioned-section__title-highlight"
+                  >most relaxing views</span
+                >
+                of Ho Chi Minh city
+              </h3>
+
+              <div class="positioned-section__wrapper">
+                <ul class="positioned-section__list">
+                  <li class="positioned-section__list-item">
+                    <span class="positioned-section__list-item-number">01</span>
+                    The best District in the city
+                  </li>
+                  <li class="positioned-section__list-item">
+                    <span class="positioned-section__list-item-number">02</span>
+                    The whole view of Saigon River
+                  </li>
+                  <li class="positioned-section__list-item">
+                    <span class="positioned-section__list-item-number">03</span>
+                    Security is always the priority
+                  </li>
+                </ul>
+
+                <div class="positioned-section__image-wrapper">
+                  <div class="positioned-section__image--large">
+                    <img
+                      src="./src/assets/images/positioned.png"
+                      alt="Masteri"
+                    />
+                  </div>
+
+                  <button class="positioned-section__button">
+                    Discover Location
+                  </button>
+                </div>
+
+                <div class="positioned-section__content--small">
+                  <h4 class="positioned-section__title">
+                    The best District in the city
+                  </h4>
+                  <p class="positioned-section__desc">
+                    The spectacular 15 into 13 room corner residence is
+                    perfectly positioned on Fifth Avenue to enjoy the absolutely
+                    dazzling views of Central Park
+                  </p>
+                  <div class="positioned-section__image">
+                    <img
+                      src="./src/assets/images/positioned1.png"
+                      alt="Masteri"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="apartment-section">
+        <div class="apartment-section__tab-list tabs">
+          <div class="apartment-section__tab-item tab active">
+            Superior Apartment 3BR
+          </div>
+          <div class="apartment-section__tab-item tab">
+            Deluxe Apartment 2BR
+          </div>
+          <div class="apartment-section__tab-item tab">Top Apartment 1BR</div>
+        </div>
+
+        <div class="apartment-section__slide-list slides">
+          <div class="apartment-section__slide-item slide active">
+            <div class="apartment-section__slide-content">
+              <img
+                srcset="./src/assets/images/apartment.png 2x"
+                alt="Apartment"
+                class="apartment-section__slide-image"
+              />
+
+              <div class="apartment-section__slide-main-content">
+                <div class="apartment-section__slide-content--left">
+                  <span class="apartment-section__text bold-text">Gallery</span>
+                  <span class="apartment-section__selected"
+                    >Selected Images</span
+                  >
+                </div>
+
+                <div class="apartment-section__slide-content--center">
+                  <span class="apartment-section__title bold-text"
+                    >Superior Apartment 3 BR / Kitchen View</span
+                  >
+                  <p class="apartment-section__total">
+                    <span class="apartment-section__current">01</span> /120
+                  </p>
+                  <p class="apartment-section__desc">
+                    The spectacular 15 into 13 room corner residence is
+                    perfectly positioned on Fifth Avenue to enjoy the absolutely
+                    dazzling views of Central Park
+                  </p>
+                </div>
+              </div>
+
+              <button class="apartment-section__button">
+                Discover gallery
+              </button>
+            </div>
+          </div>
+          <div class="apartment-section__slide-item slide">
+            <div class="apartment-section__slide-content">
+              <img
+                srcset="./src/assets/images/apartment.png 2x"
+                alt="Apartment"
+                class="apartment-section__slide-image"
+              />
+
+              <div class="apartment-section__slide-main-content">
+                <div class="apartment-section__slide-content--left">
+                  <span class="apartment-section__text bold-text">Gallery</span>
+                  <span class="apartment-section__selected"
+                    >Selected Images</span
+                  >
+                </div>
+
+                <div class="apartment-section__slide-content--center">
+                  <span class="apartment-section__title"
+                    >Superior Apartment 3 BR / Kitchen View</span
+                  >
+
+                  <p class="apartment-section__desc">
+                    The spectacular 15 into 13 room corner residence is
+                    perfectly positioned on Fifth Avenue to enjoy the absolutely
+                    dazzling views of Central Park
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="apartment-section__slide-item slide">Slide 3</div>
+        </div>
+        <div class="apartment-section__controls">
+          <button id="apartmentPrevBtn">
+            <img
+              src="./src/assets/images/icons/arrow-left.svg"
+              alt="Arrow Left Icon"
+            />
+            Prev
+          </button>
+          <button id="apartmentNextBtn">
+            Next
+            <img
+              src="./src/assets/images/icons/arrow-right.svg"
+              alt="Arrow Right Icon"
+            />
+          </button>
+        </div>
+      </section>
+
+      <section class="contact-section">
+        <div class="container">
+          <div class="contact-section__container">
+            <div class="contact-section__content--left">
+              <span class="contact-section__text-sm bold-text">contact</span>
+              <span class="contact-section__text-base">Location</span>
+              <span class="contact-section__text-xl">Let’s get in touch</span>
+            </div>
+            <div class="contact-section__content--center">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d125808.20420748515!2d105.5224308!3d9.8077678!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529fa1be17dfd%3A0xe2709f50f2f1a66!2sAutonomous%20Inc.!5e0!3m2!1svi!2s!4v1684755819981!5m2!1svi!2s"
+                width="400"
+                height="400"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+
+              <form action="#" class="contact-section__form">
+                <div class="contact-section__form-group">
+                  <input
+                    class="contact-section__input"
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Your name"
+                    required
+                  />
+                </div>
+                <div class="contact-section__form-group">
+                  <input
+                    class="contact-section__input"
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Email address"
+                    required
+                  />
+                </div>
+                <div class="contact-section__form-group">
+                  <input
+                    class="contact-section__input"
+                    type="text"
+                    id="company"
+                    name="company"
+                    placeholder="Company you are working"
+                    required
+                  />
+                </div>
+                <div class="contact-section__form-group">
+                  <textarea
+                    id="message"
+                    name="message"
+                    class="contact-section__textarea"
+                    placeholder="Thing you want to tell us"
+                    required
+                  ></textarea>
+                </div>
+                <div class="contact-section__form-group">
+                  <button class="contact-section__form-button" type="submit">
+                    Submit Form
+                    <img
+                      src="./src/assets/images/icons/arrow-right.svg"
+                      alt="Arrow Right Icon"
+                    />
+                  </button>
+                </div>
+              </form>
+            </div>
+            <div class="contact-section__content--right">
+              <span class="contact-section__title-sm">Address</span>
+              <p class="contact-section__desc">
+                19-23, Masteri An Phu Apartment, 179 Xa Lo Ha Noi, Ward Thao
+                Dien, Dist. 2, HCMC
+              </p>
+
+              <span class="contact-section__title-sm">Address</span>
+              <p class="contact-section__desc">
+                +84 39 159 159 <br />contact@masteri.com.vn <br />
+                sale@masteri.com.vn
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__container">
+            <div class="footer__content">
+              <div class="footer__left">
+                <div class="footer__logo">
+                  <img
+                    src="./src/assets/images/logo.svg"
+                    alt="Logo"
+                    class="footer__logo-image"
+                  />
+                </div>
+
+                <p class="footer__title">Masteri Centre Point</p>
+                <p class="footer__address">
+                  Địa chỉ: 179 Xa Lộ Hà Nội, Phường Thảo Điền, Quận 2, Thành phố
+                  Hồ Chí Minh
+                </p>
+                <p class="footer__contact">Số điện thoại: +84 934 88 6553</p>
+                <p class="footer__email">Email: Sale@Masteri.com.vn</p>
+              </div>
+
+              <div class="footer__right">
+                <div class="footer__column">
+                  <p class="footer__column-title bold-text">Quicklinks</p>
+                  <ul class="footer__column-list">
+                    <li class="footer__column-item">
+                      <a href="#" class="footer__column-link">Home</a>
+                    </li>
+                    <li class="footer__column-item">
+                      <a href="#" class="footer__column-link">Contact Us</a>
+                    </li>
+                    <li class="footer__column-item">
+                      <a href="#" class="footer__column-link">Our Residences</a>
+                    </li>
+                    <li class="footer__column-item">
+                      <a href="#" class="footer__column-link"
+                        >Discover Location</a
+                      >
+                    </li>
+                    <li class="footer__column-item">
+                      <a href="#" class="footer__column-link">View Gallery</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="footer__column">
+                  <p class="footer__column-title bold-text">Residences</p>
+                  <ul class="footer__column-list">
+                    <li class="footer__column-item">
+                      <a href="#" class="footer__column-link"
+                        >Deluxe Apartment</a
+                      >
+                    </li>
+                    <li class="footer__column-item">
+                      <a href="#" class="footer__column-link"
+                        >Superior Apartment</a
+                      >
+                    </li>
+                    <li class="footer__column-item">
+                      <a href="#" class="footer__column-link">Top Apartment</a>
+                    </li>
+                    <li class="footer__column-item">
+                      <a href="#" class="footer__column-link">2BR Apartment</a>
+                    </li>
+                    <li class="footer__column-item">
+                      <a href="#" class="footer__column-link"
+                        >Balcony Apartment</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="footer__column">
+                  <p class="footer__column-title bold-text">Social</p>
+                  <ul class="footer__column-list">
+                    <li class="footer__column-item">
+                      <a
+                        href="#"
+                        class="footer__column-link footer__column-link--facebook"
+                        >FaceBook</a
+                      >
+                    </li>
+                    <li class="footer__column-item">
+                      <a
+                        href="#"
+                        class="footer__column-link footer__column-link--youtube"
+                        >Youtube</a
+                      >
+                    </li>
+                    <li class="footer__column-item">
+                      <a
+                        href="#"
+                        class="footer__column-link footer__column-link--email"
+                        >Email</a
+                      >
+                    </li>
+                    <li class="footer__column-item">
+                      <a
+                        href="#"
+                        class="footer__column-link footer__column-link--instagram"
+                        >Instagram</a
+                      >
+                    </li>
+                    <li class="footer__column-item">
+                      <a
+                        href="#"
+                        class="footer__column-link footer__column-link--linkedin"
+                        >LinkedIn</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="footer__bottom">
+              <p class="footer__bottom-title">Masteri Centre Point</p>
+
+              <ul class="footer__bottom-list">
+                <li class="footer__bottom-item">
+                  <a href="#" class="footer__bottom-link"
+                    >Terms &amp; Conditions</a
+                  >
+                </li>
+                <li class="footer__bottom-item">
+                  <a href="#" class="footer__bottom-link">Privacy Policy</a>
+                </li>
+                <li class="footer__bottom-item footer__bottom-copyright">
+                  <a href="#" class="footer__bottom-link">©2020</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

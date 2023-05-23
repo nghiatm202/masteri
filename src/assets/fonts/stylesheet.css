@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Freight Big Pro';
+    src: url('FreightBigPro-Medium.eot');
+    src: url('FreightBigPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('FreightBigPro-Medium.woff2') format('woff2'),
+        url('FreightBigPro-Medium.woff') format('woff'),
+        url('FreightBigPro-Medium.ttf') format('truetype'),
+        url('FreightBigPro-Medium.svg#FreightBigPro-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Freight Big Pro';
+    src: url('FreightBigPro-Light.eot');
+    src: url('FreightBigPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('FreightBigPro-Light.woff2') format('woff2'),
+        url('FreightBigPro-Light.woff') format('woff'),
+        url('FreightBigPro-Light.ttf') format('truetype'),
+        url('FreightBigPro-Light.svg#FreightBigPro-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Freight Big Pro';
+    src: url('FreightBigPro-Book.eot');
+    src: url('FreightBigPro-Book.eot?#iefix') format('embedded-opentype'),
+        url('FreightBigPro-Book.woff2') format('woff2'),
+        url('FreightBigPro-Book.woff') format('woff'),
+        url('FreightBigPro-Book.ttf') format('truetype'),
+        url('FreightBigPro-Book.svg#FreightBigPro-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Freight Big Pro';
+    src: url('FreightBigPro-Bold.eot');
+    src: url('FreightBigPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('FreightBigPro-Bold.woff2') format('woff2'),
+        url('FreightBigPro-Bold.woff') format('woff'),
+        url('FreightBigPro-Bold.ttf') format('truetype'),
+        url('FreightBigPro-Bold.svg#FreightBigPro-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Freight Big Pro';
+    src: url('FreightBigPro-Black.eot');
+    src: url('FreightBigPro-Black.eot?#iefix') format('embedded-opentype'),
+        url('FreightBigPro-Black.woff2') format('woff2'),
+        url('FreightBigPro-Black.woff') format('woff'),
+        url('FreightBigPro-Black.ttf') format('truetype'),
+        url('FreightBigPro-Black.svg#FreightBigPro-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Freight Big Pro';
+    src: url('FreightBigPro-Semibold.eot');
+    src: url('FreightBigPro-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('FreightBigPro-Semibold.woff2') format('woff2'),
+        url('FreightBigPro-Semibold.woff') format('woff'),
+        url('FreightBigPro-Semibold.ttf') format('truetype'),
+        url('FreightBigPro-Semibold.svg#FreightBigPro-Semibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
