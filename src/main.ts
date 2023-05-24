@@ -1,3 +1,5 @@
+import apartmentImage from "./assets/images/apartment.png"
+
 import "./style.css"
 
 // Header
@@ -148,21 +150,21 @@ interface ApartmentSlide {
 
 const apartmentSlides: ApartmentSlide[] = [
   {
-    imageSrcSet: "./src/assets/images/apartment.png 2x",
+    imageSrcSet: `${apartmentImage} 2x`,
     alt: "Apartment",
     title: "Superior Apartment 3 BR / Kitchen View",
     description:
       "The spectacular 15 into 13 room corner residence is perfectly positioned on Fifth Avenue to enjoy the absolutely dazzling views of Central Park",
   },
   {
-    imageSrcSet: "./src/assets/images/apartment.png 2x",
+    imageSrcSet: `${apartmentImage} 2x`,
     alt: "Apartment",
     title: "Deluxe Apartment 2 BR",
     description:
       "Experience luxurious living in our deluxe 2-bedroom apartments with stunning views and modern amenities",
   },
   {
-    imageSrcSet: "./src/assets/images/apartment.png 2x",
+    imageSrcSet: `${apartmentImage} 2x`,
     alt: "Apartment",
     title: "Top Apartment 1 BR",
     description:
