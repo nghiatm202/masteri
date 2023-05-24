@@ -9,19 +9,19 @@ interface HeaderSlide {
 
 const headerSlideData: HeaderSlide[] = [
   {
-    imageSrc: "./src/assets/images/header1.png",
+    imageSrc: "./public/header1.png",
     title: "Find a home that suits your lifestyle",
     content:
       "Built on centuries of tradition and dedicated to innovating the luxury real estate industry, Masteri Centre Point offers transformative experiences through a global network of exceptional and outstanding agents.",
   },
   {
-    imageSrc: "./src/assets/images/header1.png",
+    imageSrc: "./public/header1.png",
     title: "Find a job that suits your lifestyle",
     content:
       "Built on centuries of tradition and dedicated to innovating the luxury real estate industry, Masteri Centre Point offers transformative experiences through a global network of exceptional and outstanding agents.",
   },
   {
-    imageSrc: "./src/assets/images/header1.png",
+    imageSrc: "./public/header1.png",
     title: "Find a money that suits your lifestyle",
     content:
       "Built on centuries of tradition and dedicated to innovating the luxury real estate industry, Masteri Centre Point offers transformative experiences through a global network of exceptional and outstanding agents.",
