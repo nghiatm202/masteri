@@ -1,35 +1,36 @@
+import headerImage from "./assets/images/header1.png"
 import apartmentImage from "./assets/images/apartment.png"
 
 import "./style.css"
 
 // Header
 interface HeaderSlide {
-  imageSrc: string
+  imageSrcSet: string
   title: string
   content: string
 }
 
 const headerSlideData: HeaderSlide[] = [
   {
-    imageSrc: "./public/header1.png",
+    imageSrcSet: `${headerImage} 2x`,
     title: "Find a home that suits your lifestyle",
     content:
       "Built on centuries of tradition and dedicated to innovating the luxury real estate industry, Masteri Centre Point offers transformative experiences through a global network of exceptional and outstanding agents.",
   },
   {
-    imageSrc: "./public/header1.png",
+    imageSrcSet: `${headerImage} 2x`,
     title: "Find a job that suits your lifestyle",
     content:
       "Built on centuries of tradition and dedicated to innovating the luxury real estate industry, Masteri Centre Point offers transformative experiences through a global network of exceptional and outstanding agents.",
   },
   {
-    imageSrc: "./public/header1.png",
+    imageSrcSet: `${headerImage} 2x`,
     title: "Find a money that suits your lifestyle",
     content:
       "Built on centuries of tradition and dedicated to innovating the luxury real estate industry, Masteri Centre Point offers transformative experiences through a global network of exceptional and outstanding agents.",
   },
   {
-    imageSrc: "./src/assets/images/header1.png",
+    imageSrcSet: `${headerImage} 2x`,
     title: "Find a girl that suits your lifestyle",
     content:
       "Built on centuries of tradition and dedicated to innovating the luxury real estate industry, Masteri Centre Point offers transformative experiences through a global network of exceptional and outstanding agents.",
@@ -57,7 +58,7 @@ function showSlideHandler(index: number): void {
   headerSlideList.innerHTML = `
     <div class="header__slide-item">
       <div class="header__slide-content">
-        <img src="${currentSlide.imageSrc}" alt="Banner" />
+        <img srcset="${currentSlide.imageSrcSet}" alt="Banner" />
 
         <div class="header__slide-main-content">
           <div class="container">
